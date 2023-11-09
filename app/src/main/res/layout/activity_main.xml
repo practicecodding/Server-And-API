@@ -7,115 +7,143 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll"-->
+<!--        android:visibility="visible"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        >-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/layName"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:theme="@style/Hamidul.TextInputEditText.Outlined"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Your Name"-->
+<!--        android:layout_margin="20dp"-->
+<!--        app:boxStrokeColor="#673AB7"-->
+<!--        app:hintTextColor="#673AB7"-->
+<!--        app:endIconTint="#673AB7"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/edName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textPersonName"-->
+<!--            />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:theme="@style/Hamidul.TextInputEditText.Outlined"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Your Number"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        app:boxStrokeColor="#673AB7"-->
+<!--        app:hintTextColor="#673AB7"-->
+<!--        app:endIconTint="#673AB7"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/edMobile"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="number"-->
+<!--            />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:theme="@style/Hamidul.TextInputEditText.Outlined"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Your Email"-->
+<!--        android:layout_margin="20dp"-->
+<!--        app:boxStrokeColor="#673AB7"-->
+<!--        app:hintTextColor="#673AB7"-->
+<!--        app:endIconTint="#673AB7"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/edEmail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:text="Insert Data Into Database"-->
+<!--        android:enabled="false"-->
+<!--        android:background="@drawable/custom_button"-->
+<!--        android:textColor="@drawable/tc"-->
+<!--        />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/ls"-->
+<!--        android:visibility="visible"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:theme="@style/Hamidul.TextInputEditText.Outlined"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Your Name"-->
+<!--        android:layout_margin="20dp"-->
+<!--        app:boxStrokeColor="#673AB7"-->
+<!--        app:hintTextColor="#673AB7"-->
+<!--        app:endIconTint="#673AB7"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/edSearch"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textPersonName"-->
+<!--            />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
     <LinearLayout
-        android:id="@+id/ll"
-        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="24dp"
         >
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/layName"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:theme="@style/Hamidul.TextInputEditText.Outlined"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Your Name"
-        android:layout_margin="20dp"
-        app:boxStrokeColor="#673AB7"
-        app:hintTextColor="#673AB7"
-        app:endIconTint="#673AB7"
-        app:endIconMode="clear_text"
-        >
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:theme="@style/Hamidul.TextInputEditText.Outlined"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Your Number"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        app:boxStrokeColor="#673AB7"
-        app:hintTextColor="#673AB7"
-        app:endIconTint="#673AB7"
-        app:endIconMode="clear_text"
-        >
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edMobile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:theme="@style/Hamidul.TextInputEditText.Outlined"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Your Email"
-        android:layout_margin="20dp"
-        app:boxStrokeColor="#673AB7"
-        app:hintTextColor="#673AB7"
-        app:endIconTint="#673AB7"
-        app:endIconMode="clear_text"
-        >
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Insert Data Into Database"
-        android:enabled="false"
-        android:background="@drawable/custom_button"
-        android:textColor="@drawable/tc"
-        />
 
     </LinearLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ls"
-        android:visibility="visible"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:theme="@style/Hamidul.TextInputEditText.Outlined"
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Your Name"
-        android:layout_margin="20dp"
-        app:boxStrokeColor="#673AB7"
-        app:hintTextColor="#673AB7"
-        app:endIconTint="#673AB7"
-        app:endIconMode="clear_text"
+        app:queryHint="Search Name"
+        app:iconifiedByDefault="false"
+        app:searchIcon="@null"
+        app:queryBackground="@null"
+        android:padding="5dp"
+        android:background="@drawable/custom_search"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         >
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edSearch"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            />
-    </com.google.android.material.textfield.TextInputLayout>
+    </androidx.appcompat.widget.SearchView>
 
     <ProgressBar
         android:visibility="gone"
