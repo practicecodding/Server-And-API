@@ -132,16 +132,16 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:queryHint="Search Name"
-        app:iconifiedByDefault="false"
-        app:searchIcon="@null"
-        app:queryBackground="@null"
-        android:padding="5dp"
-        android:background="@drawable/custom_search"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        >
+        android:background="@drawable/custom_search"
+        android:padding="5dp"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@null"
+        app:queryHint="Search Name"
+        app:searchIcon="@null"
+        tools:ignore="SpeakableTextPresentCheck">
 
     </androidx.appcompat.widget.SearchView>
 

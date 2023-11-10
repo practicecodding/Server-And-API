@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
 //        layName = findViewById(R.id.layName);
         gridView = findViewById(R.id.gridView);
         searchView = findViewById(R.id.searchView);
-//        edSearch = findViewById(R.id.edSearch);
 //        ls = findViewById(R.id.ls);
 //        ll = findViewById(R.id.ll);
 
@@ -80,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
 //        edEmail.addTextChangedListener(watcher);
 
         loadData();
-
 
 //        edSearch.addTextChangedListener(new TextWatcher() {
 //            @Override
@@ -228,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public boolean onQueryTextChange(String newText) {
                             myAdapter.filter(newText);
-                            return false;
+                            return true;
                         }
                     });
                 }
